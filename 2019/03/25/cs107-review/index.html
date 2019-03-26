@@ -14,12 +14,13 @@
 <meta property="og:site_name" content="AIBAAAAA">
 <meta property="og:description" content="CS107是我在斯坦福上的第二门CS课，但是说实话，它却是第一门让我真正感觉到作为一名prospective CS major所必需的热情和好奇心的课。CS107的全称是Computer Organization and Systems，教学语言是C，主要内容包括不同数据结构的储存，指针，assembly code，memory management等。其实在决定上这门课之前，我的内心是拒绝的，因">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg">
-<meta property="og:updated_time" content="2019-03-26T01:34:47.023Z">
+<meta property="og:image" content="https://github.com/AIBAAAAA/aibaaaaa.github.io/blob/master/images/Picture1.png">
+<meta property="og:image" content="https://github.com/AIBAAAAA/aibaaaaa.github.io/blob/master/images/Picture1.png">
+<meta property="og:updated_time" content="2019-03-26T01:37:57.523Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Stanford CS107 Course Review">
 <meta name="twitter:description" content="CS107是我在斯坦福上的第二门CS课，但是说实话，它却是第一门让我真正感觉到作为一名prospective CS major所必需的热情和好奇心的课。CS107的全称是Computer Organization and Systems，教学语言是C，主要内容包括不同数据结构的储存，指针，assembly code，memory management等。其实在决定上这门课之前，我的内心是拒绝的，因">
-<meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg">
+<meta name="twitter:image" content="https://github.com/AIBAAAAA/aibaaaaa.github.io/blob/master/images/Picture1.png">
   
     <link rel="alternate" href="/atom.xml" title="AIBAAAAA" type="application/atom+xml">
   
@@ -92,7 +93,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>CS107是我在斯坦福上的第二门CS课，但是说实话，它却是第一门让我真正感觉到作为一名prospective CS major所必需的热情和好奇心的课。CS107的全称是Computer Organization and Systems，教学语言是C，主要内容包括不同数据结构的储存，指针，assembly code，memory management等。其实在决定上这门课之前，我的内心是拒绝的，因为我的course advisor把它称为“CS学生的坟墓”。而CS107作为一门课的“知名”程度，也可见下图：<br><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg" alt="image"><br>但是在终于上完这门课之后，回顾这一个学期自己的挣扎与煎熬，我却意外地收获极大，也愈发坚定了走CS这条路的想法。因为觉得CS107所覆盖的内容都意外地对于理解higher-level structure非常实用，所以想在这片文章里整理一下主要知识点并分享一下学习感受。</p>
+        <p>CS107是我在斯坦福上的第二门CS课，但是说实话，它却是第一门让我真正感觉到作为一名prospective CS major所必需的热情和好奇心的课。CS107的全称是Computer Organization and Systems，教学语言是C，主要内容包括不同数据结构的储存，指针，assembly code，memory management等。其实在决定上这门课之前，我的内心是拒绝的，因为我的course advisor把它称为“CS学生的坟墓”。而CS107作为一门课的“知名”程度，也可见下图：</p>
+<p><img src="https://github.com/AIBAAAAA/aibaaaaa.github.io/blob/master/images/Picture1.png" alt="只是偶然间搜到的帖子"></p>
+<p>但是在终于上完这门课之后，回顾这一个学期自己的挣扎与煎熬，我却意外地收获极大，也愈发坚定了走CS这条路的想法。因为觉得CS107所覆盖的内容都意外地对于理解higher-level structure非常实用，所以想在这片文章里整理一下主要知识点并分享一下学习感受。</p>
 <p>CS107覆盖的知识点主要可以分为以下三大块：</p>
 <ol>
 <li>不同数据结构的表达与存储</li>
@@ -105,12 +108,13 @@
 <p>总体来说，这三大块的知识点本身都不是非常难懂，但是一旦要求灵活地运用它们，难度就大大提高了。CS107这门课的最大特点就是：对于知识量的存储要求远不及运用要求高。因此，CS107工作量最大，以及对于掌握知识最有帮助的模块就是assignment。由于每次assignment要写的code本身不是很长，所以最好的学习方法就是刨根问底地把每一次作业完全懂透，最后考试前基本上就不会压力很大了。</p>
 <p>CS107一个学期总共有七个assignment，其中最“臭名昭著”的大概就要数最后两个了：binary bomb和heap allocator。确实，这两个作业是我花时间最多的两个。每次assignment要写的代码并没有很长，有时候甚至比CS106B的代码还要短，因此前五个作业我平均每个大概写20个小时。但是，heap allocator我整整写了40个小时，截止日期的前一天晚上，我都已经做好了十足的心理准备要在Huang basement (Engineering Quad里一个非常适合熬夜赶作业的地方) 过夜了。而binary bomb虽然费时不算多，但是那唯一的一次由于我作死还没有设置断点就在gdb里运行所导致的“爆炸”- KABOOM!，真的给我留下了永久的心灵创伤。</p>
 <p>CS107期中考和期末考允许带一张A4大小的双面笔记。期中考前，我非常仔细地复习完了课本，作业，和lab的内容，然后最后再总结重要知识点做了一张cheat sheet。我依照一些同学的建议在其中一面上写满了所有会用到的C library function的输入输出值以及用法，而另一页上我则写满了各种bitwise operation和mask的快捷用法。结果考试写码的时候根本没有时间去看清楚每一个函数的用法，bitwise operation考得也相对偏理解应用，笔记上的mask也完全没用上。结果，整个期中考下来，我的那一张辛辛苦苦额外做的笔记一次都没有派上用场。这次惨痛经历告诉我，其实CS107的笔记上不应该放一些平时就应该在应用过程中掌握的“技术性”知识块，而是一些与应用无关，却容易记错或互相混淆的细节知识点。比如说，在准备期末考的笔记的时候，我就写了很多assembly中容易记错的condition codes用法以及其不同状态对应的conditional jump。再比如说，就是GCC处理signed和unsigned division的不同方式及原因：</p>
+<p><img src="https://github.com/AIBAAAAA/aibaaaaa.github.io/blob/master/images/Picture1.png" alt="unsigned VS signed division assembly"></p>
 <p>整体来说，相比106系列的课，CS107可以说是一门真正意义上的CS课了，基本上选了这门课的同学整体水平都很高 (每次作业的median都有76/80这种水平，我真的吓尿了)，并且大多数是prospective CS major。CS107所学的内容对于理解之后更加higher level的内容非常有帮助，可以说是挺实用的一门CS基础课。虽然它不仅被称为“CS学生的坟墓”，而且是the most infamous CS course at Stanford，但是它毕竟是CS core，所以尽早上完即可以打卡一门requirement，又可以帮助我们打下更加扎实的基础。更重要的是，教这门课的Nick Troccoli是斯坦福本科和master毕业后立马留校任职做lecturer的。他不仅教得特别好，解释概念很清晰，而且人特别nice，上课也非常有趣，绝对不会催眠！综上所述，不管他人对它的评价是什么，我个人还是强烈推荐CS107的。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/03/25/cs107-review/" data-id="cjtp2aoo50000dz2uf1rnr43u" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/03/25/cs107-review/" data-id="cjtp42oq70000n52uxkjqj5t4" class="article-share-link">Share</a>
       
       
     </footer>
